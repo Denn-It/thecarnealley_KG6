@@ -30,15 +30,51 @@
   .navItemActive {
     color: black;
   }
+  h1{
+    color: #a6432c;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-top: 3px;
+    font-family: 'Sukhumvit';
+    font-weight: bolder;
+  }
+  .row{
+    justify-content: space-evenly;
+  }
+ .card{
+  color: #a6432c;
+  border:black ;
+  padding: 3px;
+  margin: 5px;
+
+ }
+ .card-body{
+  text-align: center;
+  color: black;
+  
+ }
+ .card-title{
+  font-weight: bolder;
+  letter-spacing: 2px;
+ }
+ .btn{
+padding: 10px;
+margin: 5px;
+letter-spacing: 2px;
+font-weight: bold;
+ }
 </style>
 
 <body>
 
     <div style="background-color:  #a6432c;">
-        <!-- <img src="images/logo.png" alt="" height="100"> -->
+        <!-- <img src="images/logo.png" alt="" height="100"> --> <h1>Header</h1>
     </div>
 
-    <div class="container-fluid" style="padding: 0px;">
+    <div class="container" style="padding: 0px;">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #a6432c;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
@@ -62,91 +98,178 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><span class="navItem" ><i class="fa-solid fa-cart-shopping"></span></i></a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> -->
           </ul>
         </div>
       </div>
     </nav>
-    <br>
-    <br>
-    <br>
+    <h1>Meat Our Products</h1>
     <!-- CARD MENUS -->
-    <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 20px;">
-      <div class="col-2">
-        <div class="card h-80">
+    <div class="row">
+      <!--Start of Row 1-->
+    <div class="row row-cols-1">
+      <div class="col-lg-4">
+        <div class="card border-secondary border-3 border-bottom bg-light">
           <img src="images/USDA Prime Ribeye_raw02.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#!" class="btn btn-primary">Button</a>
+            <h5 class="card-title">USDA Prime Ribeye </h5>
+            <p class="card-text">Price = P880/420g</p>
+            <div class="btn">
+            <a href="#!" class="btn btn-danger">Buy Now</a>
+            <a href="#!" class="btn btn-warning">Add to Cart</a>
+          </div>
           </div>
         </div>
       </div>
-      <div class="col-2">
-        <div class="card h-100">
-          <img src="images/USDA Prime Ribeye_raw02.jpg" class="card-img-top" alt="...">
+      <!--End of Row 1-->
+      <!--Insert Next Card Row Here-->
+      <!--Start of Row 2-->
+      <div class="col-lg-4">
+        <div class="card border-secondary border-3 border-bottom bg-light">
+          <img src="/images/Brazilian Ribeye_raw02.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
-            <a href="#!" class="btn btn-primary">Button</a>
+            <h5 class="card-title">Brazilian Ribeye </h5>
+            <p class="card-text">Price = P950/Kg</p>
+            <div class="btn">
+            <a href="#!" class="btn btn-danger">Buy Now</a>
+            <a href="#!" class="btn btn-warning">Add to Cart</a>
+          </div>
           </div>
         </div>
       </div>
-      <div class="col-2">
-        <div class="card h-100">
-          <img src="images/USDA Prime Ribeye_raw02.jpg" class="card-img-top" alt="...">
+      <!--End of Row 2-->
+      <!--Insert Next Card Row Here-->
+      <!--Start of Row 3-->
+      <div class="col-lg-4">
+        <div class="card border-secondary border-3 border-bottom bg-light">
+          <img src="images/US Angus Top Sirloin_raw.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="#!" class="btn btn-primary">Button</a>
+            <h5 class="card-title">US Angus Top Sirloin </h5>
+            <p class="card-text">Price = P1000/Kg</p>
+            <div class="btn">
+            <a href="#!" class="btn btn-danger">Buy Now</a>
+            <a href="#!" class="btn btn-warning">Add to Cart</a>
+          </div>
           </div>
         </div>
       </div>
-      <div class="col-2">
-        <div class="card h-100">
-          <img src="images/USDA Prime Ribeye_raw02.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#!" class="btn btn-primary">Button</a>
-          </div>
-        </div>
+      <!--End of Row 3-->
       </div>
-      <div class="col-2">
-        <div class="card h-100">
-          <img src="images/USDA Prime Ribeye_raw02.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#!" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="card h-100">
-          <img src="images/USDA Prime Ribeye_raw02.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#!" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="card h-100">
-          <img src="images/USDA Prime Ribeye_raw02.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#!" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
-
+      
+      <!--Start of Row 2-->
+      <!--End of Row 2-->
     </div>
    <!-- END OF CARD MENUS -->
 </div>
+<!-- Footer Starts Here -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-lowercase fw-semi-bold mb-2">
+            the <span class="highlightWord">carne</span> alley
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer
+            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-lowercase fw-bold mb-4">
+            <span class="highlightWord">Useful</span> links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-lowercase fw-bold mb-4">
+            <span class="highlightWord">Contact</span>
+          </h6>
+          <p>
+            <i class="fas fa-home me-3"></i> Blk 12 Lot 40, San Pedro,
+            Laguna, 4023
+          </p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div
+    class="text-center p-4"
+    style="background-color: rgba(0, 0, 0, 0.05)"
+  >
+    © 2022 Copyright: The <span class="highlightWord">Carne</span> Alley
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
 </html>

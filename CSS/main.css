@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Coolvetica";
+  src: url(../tca/Fonts/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: "Sukhumvit";
+  src: url(../tca/Fonts/SukhumvitSet-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "SukhumvitThin";
+  src: url(../tca/Fonts/SukhumvitSet-Thin.ttf);
+}
+
+body {
+  background-color: #e1dfdb;
+  height: 100%;
+}
+
+.navItem {
+  color: white;
+}
+
+.navItemActive {
+  color: black;
+}
+
+.content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content h1,
+.content h3 {
+  font-family: "Sukhumvit";
+  color: #c64931;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+.content li {
+  font-family: "SukhumvitSet-Thin";
+  color: black;
+}
+
+.highlight {
+  font-family: "Sukhumvit";
+  color: #c64931;
+}
+.contactUs {
+  margin-top: -100px;
+}

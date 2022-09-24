@@ -35,13 +35,14 @@
         }
 
         .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-            url(../thecarnealley_KG6/images/aboutuscover.png);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+            url(/images/aboutuscover.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             height: 80%;
             width: 100%;
+
         }
 
         .heroTitle {
@@ -96,15 +97,47 @@
        .highlightWord {
         color: #c64931;
        }
+       h1, h2, h3{
+        color:white;
+        background-color: none;
+        font-family: Coolvetica;
+        font-weight: bolder;
+        letter-spacing: 5px;
+       }
+       h3{
+        color:black;
+        background-color: none;
+        font-family: Coolvetica;
+        font-weight: bolder;
+        letter-spacing: 5px;
+       }
+     p{}
+       .ourLogo{
+        background: black;
+       }
+       .about-text{
+        font-size: 1rem;
+        color: white;
+        font-family:'Sukhumvit' ;
+        letter-spacing: 2px;
+        
+       }
+.aboutLogo{
 
+ justify-content: center;
+ align-items: center;
+ 
+
+}
     </style>
 
     <body>
-      <div style="height: 100%;">
+      <div class="container-fluid" style="height: 100%;">
         <div style="background-color:  #e1dfdb;">
-            <!-- <img src="images/logo.png" alt="" height="100"> -->
+            <!-- <img src="images/logo.png" alt="" height="100"> --> <h1>Header</h1>
         </div>
-        <div class="container-fluid" style="padding: 0px;">
+        
+        <div class="" style="padding: 0px;">
             <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e1dfdb;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
@@ -141,23 +174,37 @@
             <div class="d-flex justify-content-center align-items-center h-100">
               <div class="text-white heroTitle">
                 <h1 class="mb-3 heroText">ABOUT US</h1>
+                <h2>Vision:</h2>
+                <p class="about-text">To provide our customers with high-quality produced meat products while building a sustainable business to support the regional meat industry.</p>
+                <h2>Mission:</h2>
+                <p class="about-text">We are a community-motivated business that brings prime meats from all over the globe and worldly me
+
+                  We are Customer, Producer and Stakeholder Focused
+                    To be the hub of the Philippine meat industry, cultivating relationships to provide excellent meat products to our families and yours, upholding the highest standards of 		health and service. </p>
+                    <h2>Values:</h2>
+                <p class="about-text">We act Honesty and Fairness in Everything We Do
+                  <br>
+                  Our Customers, Meat Producers, Suppliers and Employees will be treated with fairness and respect. We will conduct ourselves ethically, with honesty and integrity.</p>
               </div>
             </div>
             </div>
-            </div>
+          </div>
 <!-- Hero -->
 <br>
 
 <!--Logo -->
             <figure class="text-center">
-              <h1 class= "text-center ourLogo">OUR LOGO</h1>
-                <img src="../thecarnealley_KG6/images/TCALogowbg2.png" class="img-fluid companyLogo" alt="...">
+              <h1 class= "ourLogo ">OUR LOGO</h1>
+              <div class="aboutLogo col">
+                <img src="/images/TCACover.png" class="img-fluid companyLogo" alt="...">
+              </div>
 
 
 <!-- Content-->
-            <div class="container-fluid content ">
+            <div class="container-fluid h-50 w-100 ">
               <div class="flex-sm-nowrap content-border">
                 <br><br>
+                <div class="container-fluid col">
                 <h3 class="d-flex bd-highlight justify-content-center">WHO WE ARE</h3>
                   <div class="p-2-flex flex-nowrap contentText">
                     we are a community-motivated business that brings prime meats from 
@@ -174,7 +221,8 @@
                     flavors right at your doorstep, so you can easily make unforgettable 
                     mealtime moments within the intimacy of your dining table.
                   </div>
-                  <br><br>
+                </div>
+                  <br>
               </div>
             </div>
             
